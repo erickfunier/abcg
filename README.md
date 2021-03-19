@@ -9,6 +9,11 @@ For each board in the game, an ImGui window is created, which makes it a lot eas
 
 The description of the positions of each board is made in the file _openglwindow.hpp_ and the description and creation of the graphics are in the files shapes.cpp and shapes.hpp
 
+The game can be access in web version:
+
+   https://erickfunier.github.io/ComputerGraphics/ABCg/nested-tic-tac-toe/
+
+
 ## Authors
    Erick Funier dos Santos - RA: 11031914
 
