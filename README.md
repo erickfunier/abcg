@@ -14,6 +14,11 @@ The game can be access in web version:
    https://erickfunier.github.io/ComputerGraphics/ABCg/nested-tic-tac-toe/
 
 
+## Possible Outcomes
+   X: Player that has chosen X wins
+   O: Player that has chosen O wins
+   D: Draw game
+   
 ## Authors
    Erick Funier dos Santos - RA: 11031914
    
