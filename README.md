@@ -16,6 +16,7 @@ The game can be access in web version:
 
 ## Authors
    Erick Funier dos Santos - RA: 11031914
+   Paulo Ricardo Cunha - RA: 11080312
 
 # ABCg
 
