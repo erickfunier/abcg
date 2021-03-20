@@ -7,7 +7,7 @@ The code was made using the ABCg library, with OpenGL, the menu, and the buttons
 For each board in the game, an ImGui window is created, which makes it a lot easier, as these windows are generated with just a few for loops.
 
 
-The description of the positions of each board is made in the file _openglwindow.hpp_ and the description and creation of the graphics are in the files shapes.cpp and shapes.hpp
+The description of the positions of each board is made in the file _openglwindow.hpp_ and the description and creation of the graphics are in the files _shapes.cpp_ and _shapes.hpp_.
 
 The game can be access in web version:
 
@@ -16,6 +16,7 @@ The game can be access in web version:
 
 ## Authors
    Erick Funier dos Santos - RA: 11031914
+   
    Paulo Ricardo Cunha - RA: 11080312
 
 # ABCg
