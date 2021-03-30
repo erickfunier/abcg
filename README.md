@@ -1,4 +1,4 @@
-# Nested Tic-Tac-Toe
+# Baby Yoda Projection
 
 A classic game, with a hint of difficulty, the Nested Tic-Tac-Toe consists of nine Tic-Tac-Toe games that together form a Tic-Tac-Toe, increasing the difficulty, since any of the games can be done simultaneously, with a distraction the player loses easily.
 
