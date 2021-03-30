@@ -1,23 +1,21 @@
 # Baby Yoda Projection
 
-A classic game, with a hint of difficulty, the Nested Tic-Tac-Toe consists of nine Tic-Tac-Toe games that together form a Tic-Tac-Toe, increasing the difficulty, since any of the games can be done simultaneously, with a distraction the player loses easily.
+For Activity 2, the projection of Baby Yoda was created from an OBJ of 3D modeling.
+Some resources for interacting and running the libraries have been added.
 
-The code was made using the ABCg library, with OpenGL, the menu, and the buttons on each board were made with ImGui and the lines and columns, in addition to the end-of-game trace, were made with Open graphics.
+For coloring, a uniform variable was defined in the frag file, which makes it possible to change the color of the fragments at run time. Therefore, through the user interface, it is possible to color with some pre-defined colors, which are stored in vec4 in the code.
+The separation of fragments is done by selecting the vertices to be drawn, therefore starting from the first element, which in this case is the scarf, the number of vertices necessary for the design was calculated, limiting the application to drawing only those triangles/ fragments with the color specified. This is done for each part of Yoda.
+The user can still make Yoda's eye "blink", we only do a blink varying the colors from white to black.
 
-For each board in the game, an ImGui window is created, which makes it a lot easier, as these windows are generated with just a few for loops.
+A bouncing feature was also added to simulate the Yoda's fluctuation movement. (the lightsaber had to be modeled :P)
 
+In addition to the aforementioned features, an exploded view of Yoda was added, separating the elements from the body. For this, uniform variables were added in the vert, allowing the position to be modified at run time, so before drawing each part of the doll, the axis is displaced with a position obtained in simulations.
+All added features can be used simultaneously.
 
-The description of the positions of each board is made in the file _openglwindow.hpp_ and the description and creation of the graphics are in the files _shapes.cpp_ and _shapes.hpp_.
+The projection can be access in web version:
 
-The game can be access in web version:
+   https://erickfunier.github.io/ComputerGraphics/ABCg/baby-yoda/
 
-   https://erickfunier.github.io/ComputerGraphics/ABCg/nested-tic-tac-toe/
-
-
-## Possible Outcomes
-   X: Player that has chosen X wins
-   O: Player that has chosen O wins
-   D: Draw game
    
 ## Authors
    Erick Funier dos Santos - RA: 11031914
