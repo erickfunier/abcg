@@ -2,7 +2,7 @@
 
 This is the last project of ABCg's first series. This time, the project contains an object made in Maya. Using normal map and brick texture.
 
-Two maps are loaded _Diffuse_ and _Normal_, and the _mappingMode_ is defined to use information from the mesh_ and the object is created using a cube, then exported to Obj.
+Two texture maps are loaded _Diffuse_ and _Normal_, and the _mappingMode_ is defined to use information from the _mesh_ and the object is created using a cube, then exported to Obj.
 The lighting and shadow are based on the Blinn-Phong model, but we use only a fixed point of light, simulating an open environment.
 
 ![RUN! UFABC](gif/run.gif)
