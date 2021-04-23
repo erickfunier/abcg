@@ -1,23 +1,19 @@
-# Nested Tic-Tac-Toe
+# RUN! from UFABC
 
-A classic game, with a hint of difficulty, the Nested Tic-Tac-Toe consists of nine Tic-Tac-Toe games that together form a Tic-Tac-Toe, increasing the difficulty, since any of the games can be done simultaneously, with a distraction the player loses easily.
+This is the last project of ABCg's first series. This time, the project contains an object made in Maya. Using normal map and brick texture.
 
-The code was made using the ABCg library, with OpenGL, the menu, and the buttons on each board were made with ImGui and the lines and columns, in addition to the end-of-game trace, were made with Open graphics.
+Two maps are loaded _Diffuse_ and _Normal_, and the _mappingMode_ is defined to use information from the mesh_ and the object is created using a cube, then exported to Obj.
+The lighting and shadow are based on the Blinn-Phong model, but we use only a fixed point of light, simulating an open environment.
 
-For each board in the game, an ImGui window is created, which makes it a lot easier, as these windows are generated with just a few for loops.
+![RUN! UFABC](gif/run.gif)
 
+The user can move with the keys W, A, S, D (Up, Left, Down, Right-Arrow) and Q, E.
 
-The description of the positions of each board is made in the file _openglwindow.hpp_ and the description and creation of the graphics are in the files _shapes.cpp_ and _shapes.hpp_.
+The environment follows the idea of a maze, but it looks more like a construction, when you get to the other side the user can enjoy a view with the UFABC Clock Tower. In addition, there is a ladder that the user can climb and enjoy the roof.
 
 The game can be access in web version:
 
-   https://erickfunier.github.io/ComputerGraphics/ABCg/nested-tic-tac-toe/
-
-
-## Possible Outcomes
-   X: Player that has chosen X wins
-   O: Player that has chosen O wins
-   D: Draw game
+   https://erickfunier.github.io/ComputerGraphics/ABCg/run-ufabc/index.html
    
 ## Authors
    Erick Funier dos Santos - RA: 11031914
