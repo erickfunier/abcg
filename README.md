@@ -11,7 +11,7 @@ The user can move with the keys W, A, S, D (Up, Left, Down, Right-Arrow) and Q, 
 
 The environment follows the idea of a maze, but it looks more like a construction, when you get to the other side the user can enjoy a view with the UFABC Clock Tower. In addition, there is a ladder that the user can climb and enjoy the roof.
 
-The game can be access in web version:
+The game can be accessed in web version:
 
    https://erickfunier.github.io/ComputerGraphics/ABCg/run-ufabc/index.html
    
